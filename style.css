@@ -1,0 +1,71 @@
+.header {
+  position: relative;
+  font-family:'Abril Fatface';
+  color: #222;
+  font-size: 30px;
+}
+.header #name{
+   position: absolute;
+   bottom: 0;
+   left: 23%;
+   right: 30%;
+   font-size: 70px;
+  }
+img{
+  width:100%;
+}
+ .header #mainTitle{
+  position: absolute;
+   bottom: 23%;
+   left: 23%;
+   right: 40px;
+   font-size: 40px;
+}
+.quotes {
+  font-family: 'Abril Fatface';
+  color: white;
+  background: #383838;
+  font-size: 60px;
+
+}
+.title{
+  font-family: 'Merriweather';
+  font-style: italic;
+  color: #222;
+  font-size: 15px;
+}
+  
+  .title2{font-family: 'Merriweather';
+  font-style: italic;
+  color: #222;
+  font-size: 12px;
+  }
+
+.text {
+  font-family: 'Josefin Sans', sans-serif;
+  color: #222;
+  font-size: 12px;
+}
+
+blackquote::before {
+  content: '” ';
+  background: #383838;
+  font-family: 'Abril Fatface';
+}
+
+.body {
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.line {
+  height: 5px;
+  margin-right: 20%;
+  margin-left: 20%;
+  background: black
+}
+
+footer {
+  margin-left: 280px;
+  margin-right: 180px;
+}
